@@ -42,3 +42,10 @@ h1 {
     text-align: center;
     border-radius: 11px;
 }
+
+#jordans-1-desc{
+    border-style:solid;
+    border-color:red;
+    background-color: lightblue;
+    border-width:2px;
+}
