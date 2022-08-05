@@ -31,21 +31,51 @@ body {
     margin: 0 auto;
     background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     color: white;
 }
 
 h1 {
-    background-image:linear-gradient(blue, red) ;
-    color: blue;
+    background-image:linear-gradient(lightblue, red) ;
+    color: purple;
     font-size: 52px;
     text-align: center;
     border-radius: 11px;
+    text-shadow: 2px 2px 5px yellow;
+    text-decoration:underline;
 }
 
 #jordans-1-desc{
     border-style:solid;
-    border-color:red;
+    border-color:orange;
+    border-radius: 15px;
+    padding:20px;
+    width:200px;
+    height:150px;
     background-color: lightblue;
     border-width:2px;
+    text-align:left;
+}
+#jordans-1{
+    box-shadow:3px 3px blue; 
+    border:1px solid;
+    border-style:inset;
+    
+
+}
+#jordans-2{
+    box-shadow: 3px 3px red;
+    border:1px solid;
+    border-style:outset;
+
+}
+#jordans-2-desc{
+    border-style:solid;
+    border-color:green;
+    border: width 2px;
+    background-color:red;
+    border-radius: 15px;
+    padding:20px;
+    width:200px;
+    height:150px;
 }
